@@ -4,7 +4,7 @@ import logo from '../assets/img/logo.png';
 import Output from "./output";
 
 const Layout = (props) => {
-    let [input, setInput] = useState('');
+    let [input, setInput] = useState('0');
     let [result, setResult] = useState('');
     const handleClick = (event) => {
         const value = event.target.value;
