@@ -70,7 +70,7 @@ const Layout = (props) => {
 
                     <input type='button' value={'0'} className='button number' onClick={handleClick}></input>
                     <input type='button' value={'.'} className='button number' onClick={handleClick}></input>
-                    <input type='button' value={'='} className='button operator' onClick={handleClick}></input>
+                    <input type='button' value={'='} className='equal-sign' onClick={handleClick}></input>
 
 
                 </div>
